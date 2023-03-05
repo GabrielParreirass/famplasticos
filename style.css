@@ -115,6 +115,10 @@ nav li:hover{
   padding: 2rem;
 }
 
+.swiper1{
+  width: 90%;
+}
+
 .slide-container {
   max-width: 90%;
   width: 100%;
@@ -131,13 +135,15 @@ nav li:hover{
 
 .ProductCard{
   border-radius: 25px;
-  background-color: #fff;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #311d77;
+
   padding: 1rem;
+
+  
 }
 
 .ProductCard img{
@@ -146,9 +152,9 @@ nav li:hover{
 }
 
 .textProduct{
-  color: #fff;
+  color: #000000;
   margin-top: 2rem;
-
+  width: 80%;
 }
 
 
@@ -165,6 +171,7 @@ nav li:hover{
   color: #fff;
   font-weight: bolder;
   border: 1px solid #f17f1a;
+  margin-top: 2rem;
 }
 
 .buttonProduct button:hover{
@@ -281,14 +288,35 @@ nav li:hover{
   .swiper-navBtn {
     display: none;
   }
-  .imageCard {
-    height: 10rem;
+
+  .swiper1{
+    width: 100%;
   }
-  .descCard {
-    font-size: 1.1rem;
-    max-width: 100%;
-    text-align: center;
+
+  .ProductCard{
+    border-radius: 25px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  
   }
+
+  .textProduct{
+    color: #000000;
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .mainProducts {
+    padding: 0rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  
+  
 }
 
 /*! Fim MainProducts  */

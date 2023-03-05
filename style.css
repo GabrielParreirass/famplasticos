@@ -31,6 +31,15 @@ nav ul {
   gap: 2rem;
 }
 
+nav li{
+  cursor: pointer;
+  transition: .3s;
+}
+
+nav li:hover{
+  color: #f17f1a;
+}
+
 .containerButtonHeader button {
   background-color: #f17f1a;
   padding-top: 0.8rem;
@@ -101,6 +110,7 @@ nav ul {
   text-align: center;
 }
 
+
 .swiper{
   padding: 2rem;
 }
@@ -117,15 +127,52 @@ nav ul {
   overflow: hidden;
   border-radius: 25px;
 }
-.card {
+
+
+.ProductCard{
   border-radius: 25px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(48, 68, 110);
+  background-color: #311d77;
+  padding: 1rem;
 }
+
+.ProductCard img{
+  height: 10rem;
+  width: 5rem;
+}
+
+.textProduct{
+  color: #fff;
+  margin-top: 2rem;
+
+}
+
+
+.buttonProduct button{
+  background-color: #f17f1a;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #fff;
+  font-weight: bolder;
+  border: 1px solid #f17f1a;
+}
+
+.buttonProduct button:hover{
+  background-color: transparent;
+  color: #f17f1a;
+}
+
+
 .imageCard {
   height: 15rem;
 }

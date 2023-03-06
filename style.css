@@ -5,6 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+ 
 }
 
 /** Começo Header */
@@ -87,6 +88,14 @@ nav li:hover{
 
   .containerButtonHeader{
     width: 60%;
+  }
+
+  .logo{
+    width: 40%;
+  }
+
+  .logo img{
+    height: 5rem;
   }
 
   nav ul{
@@ -393,11 +402,16 @@ nav li:hover{
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  padding: 1rem;
 }
 
 @media screen and (max-width: 800px) {
   .marquee{
     width: 100%;
+  }
+
+  .imgMarquee img{
+    height: 4rem;
   }
 }
 
